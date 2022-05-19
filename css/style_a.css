@@ -1,0 +1,82 @@
+
+
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Cormorant+Garamond&family=Montaga&display=swap');
+
+
+/* .entete.img { 
+    background-image: url("assets/violon.png");
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+}*/
+/* .entete.titre1{
+bottom:0;
+transform:translateY(100%);
+transition:all .4s;
+
+} */
+
+/* titre du site qui s'affiche */
+
+/* TEST */
+
+ 
+ 
+.titre {
+    bottom:0px;
+    font-size:50px
+}
+
+.container {
+background-color: antiquewhite;
+}
+
+/* le bloc où il y a étoile garantie et personalisable */
+.bloc
+{
+     display:flex;
+     justify-content: space-evenly;
+     /* align-items: center; */
+    
+
+}
+
+
+
+/* Grand titre VIOLON ACADEMY */
+h1{
+    text-align:center;
+    font-family:Montaga;
+    font-size: 80px;
+}
+
+h2{
+    font-family: montaga;
+    text-align: center;
+    font-size:50px;
+}
+
+.information p,.information h3
+{
+    color: #5D4231;
+    font-family: AbeeZee;
+    text-align:center; 
+    
+}
+
+.information img{
+    height: 50px;
+    width:50px;
+    
+
+}
+
+.information h2{
+
+    color:#cca77c;
+    font-size:30px;
+    font-family:cormorant;
+   
+}
