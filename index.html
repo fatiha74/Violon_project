@@ -3,33 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="css/style_a.css" />
+    <link rel="stylesheet" href="css/style_icon.css" />
     <title>Accueil Violon Academy</title>
   </head>
   <body>
-    <header>
-      <section class="entete">
-        <img src="assets/violon1.png" /> 
-        <div class="image"> </div>
-        <div class="titre1">
-          <h1>VIOLON ACADEMY</h1>
-          <h2>Le violon pour tous</h2>
+
+    <header class="header">
+     <div class="header_logo"><img src="/assets/logoblanc.svg" alt=""></div>
+     <nav class="header_nav">
+       <ul class="header_nav_menu">
+         <li class="header_nav_menu_link">
+           <a href="index.html">Accueil</a>
+           </li>
+           <li class="header_nav_menu_link">
+            <a href="presentation.html">Présentation</a>
+            </li>
+            <li class="header_nav_menu_link">
+              <a href="contact.html">Contact</a>
+              </li>
+         </li>
+       </ul>
+    </header>
+
+<!-- ---------<-------------------------------------------------------------------------- -->
+   
+
+    
+      
+
+<main>
+      
+      <section class="accueil_sct1"> 
+        <!-- <div class="haut_sct1"> 
+          <img src="/assets/logoblanc.svg">
+           <div class="menu">
+            <a href="index.html">Accueil</a>
+            <a href="presentation.html">Présentation</a>
+            <a href="contact.html">Contact</a>
+            <div class="c-hamburger__icon">
+              <span class="c-hamburger__line"></span>
+              <span class="c-hamburger__line"></span>
+              <span class="c-hamburger__line"></span>
+          </div>
+        </div>
+      </div> -->
+
+
+   
+        <div class="cadreA">
+          
+            <h1>
+              <div>
+              <span>VIOLON ACADEMY</span>
+              </div>
+            </h1>
+            <h2>Le violon pour tous</h2>
+            <div class="slide">
+              <div class="cadre un">
+                <img class="item"src="/assets/child.jpg">
+                <p>Cours pour les plus petits (3 à 6 ans)</p>
+              </div>
+              <div class="cadre deux">
+                <img class="item" src="/assets/child.jpg">
+                <p>Cours pour les plus grands</p>
+              </div>
+              <div class="cadre trois">
+                <img class="item" src="/assets/child.jpg">
+                <p>Cours pour les adultes</p>
+              </div>
+          </div>
+          </div>
         </div>
       </section>
-    </header>
-    
-    <main>
-      <section class="information">
-        <div class="titre">
-          <h2>Une meilleure façon d'apprendre</h2>
-        </div>
 
 
-
-
+      <section class="accueil_sct2">
+          <h2 class="wow flipInx">Une meilleure façon d'apprendre</h2>
         <div class="bloc">
-         
-            <div class="etoile">
-            <img src="assets/etoile.png" />
+          <div class="logo etoile">
+             <i class="icon_star"></i>
             <h3>Enseignants Experts</h3>
             <p>
               Les instructeurs les mieux notés vous guident à chaque étape de
@@ -37,8 +89,9 @@
             </p>
           </div>
 
-          <div class="personalisable">
-            <img src="assets/perso.png" />
+          <div class="logo personalisable">
+            <i class="icon_adjust-vert"></i>
+  
             <h3>Leçons personnalisées</h3>
             <p>
               Votre style, votre rythme. Des cours personnalisés conçus pour
@@ -46,33 +99,101 @@
             </p>
           </div>
 
-          <div class="garanties">
-            <img src="assets/garantie.png" />
+          <div class="logo garanties">
+            <i class="icon_check"></i>
             <h3>100% garantie</h3>
             <p>
-              Essayez une leçon. Si vous n'êtes pas satisfait, nous vous
+              Essayez une leçon. 
+              Si vous n'êtes pas satisfait, nous vous
               rembourserons votre solde inutilisé
             </p>
           </div>
         </div>
-        
+
+       
+      </section>
+    
+      <!-- test cube ---------------------------------------------------------------- -->
+<!-- <section class="test"> -->
+  <!-- <div class="cl-flipbox-front-image" style="width:50px;"><img src="http://sii-ch.com/wp-content/uploads/2017/05/icons8-Workflow-50.png" class="attachment-medium size-medium" alt="" width="50" height="50"></div> -->
+  <!-- <div class="container_cube">
+    <div class='box-scene'>
+              <div class='box'>
+                  <div class='front face'>
+                      <img src='http://placehold.it/180x180/' alt=''> -->
+                      <!-- <i class="icon_star"></i>
+                      <h3>Enseignants Experts</h3>
+                  </div>
+                  <div class="side face">
+                    <p>
+                      Les instructeurs les mieux notés vous guident à chaque étape de
+                      votre voyage
+                    </p>
+                  </div>
+              </div>
+          </div>
+          <div class='box-scene'> -->
+              <!-- <div class='box'>
+                  <div class='front face'>
+                      <img src='http://placehold.it/180x180/' alt=''> -->
+                      <!-- <i class="icon_adjust-vert"></i>
+                      <h3>Leçons personnalisées</h3>
+                  </div>
+                  <div class="side face">
+                    <p>
+                      Votre style, votre rythme. Des cours personnalisés conçus pour
+                      vous
+                    </p>
+                  </div>
+              </div>
+          </div>
+          <div class='box-scene'>
+            <div class='box'>
+                <div class='front face'> -->
+                    <!-- <img src='http://placehold.it/180x180/' alt=''> -->
+                    <!-- <i class="icon_check"></i>
+                    <h3>100% garantie</h3>
+                </div>
+                <div class="side face">
+                  <p>
+                    Essayez une leçon. 
+                    Si vous n'êtes pas satisfait, nous vous
+                    rembourserons votre solde inutilisé
+                  </p>
+                </div>
+            </div>
+        </div>
+      </div> 
+</section>  -->
+
+  <!-- ------------------------------------------------------------------------------------------- -->
+  <!-- section video -->
+  <section class="bloc_video"> 
+       
+          <div class="video">
+             <video autoplay width="100%" loop>
+              <source src="assets/suzuki.mp4" type="video/mp4" />
+
+              Sorry, your browser doesn't support embedded videos.
+            </video> 
        
 
-
-
-        <div class="video">
-            <video  autoplay width="100%" loop>
-
-                <source src="assets/video1.mp4" 
-                        type="video/mp4">
-            
-            
-                Sorry, your browser doesn't support embedded videos.
-            </video>
-            
-        </div>
+       </div>
+       <div class="cursor">
+      </div>
       </section>
+
+
     </main>
-    <footer></footer>
+    <footer>
+    <p>Copyright Violon Academy</p>  
+    <div class="reseau">
+      <i class="social_twitter"></i>
+      <i class="social_facebook"></i>
+      <i class="social_instagram"></i>
+    </div>
+
+    </footer>
+    <script src="css/scripta.js"></script>
   </body>
 </html>

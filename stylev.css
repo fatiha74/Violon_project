@@ -1,0 +1,15 @@
+.rond_haut{
+    border-radius: 50px;
+    background-color: rgb(214, 2, 2);
+    width:50px;
+    height:50px;
+
+}
+
+.rond_bas{
+    border-radius: 50px;
+    background-color: rgb(214, 2, 2);
+    width:60px;
+    height:60px;
+
+}

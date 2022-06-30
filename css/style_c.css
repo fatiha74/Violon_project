@@ -1,2 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Cormorant+Garamond&family=Montaga&display=swap');
 
+/* menu */
+.header{
+    background-color: #cca77c96;
+    padding: 0px 20px;
+    height:70px;
+    position:fixed;
+    top:0;
+    left:0;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+   width:calc(100% - 40px);   /* on enlève les 40% du padding */
+   box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+
+}
+
+.header_logo img{
+    max-height:50px
+}
+
+.header_nav_menu{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    display:flex;
+    align-items:center;
+}
+
+.header_nav_menu_link{
+    margin-right:20px;
+}
+
+.header_nav_menu_link:last-of-type{
+   margin-right:initial;
+}
+
+
+.header_nav_menu_link a{
+   color:#f7f7f7;
+   font-family: arial;
+   font-weight: 600;
+ text-decoration:none;
+ position:relative;
+}
+
+.header_nav_menu_link a:after{
+   content:'';
+height:2px;
+background-color: white;
+width:0;
+position:absolute;
+bottom:-5px;
+right:0;
+transition:0.2s all ease-in-out
+
+}
+
+.header_nav_menu_link a:hover:after{
+   /* content:''; */
+   width:100%;
+   left:0;
+}
+
+.header_burger {
+    display:none; 
+
+}
+.header_burger svg{
+   fill:#fff;
+   width:22px;
+   height:22px;
+}
+
+@media screen and(max-width:650px){
+
+   .header_burger{
+       display:block;
+   }
+
+   .header_nav{
+   position:fixed;
+   top:0;
+   right:0;
+   width:300px;
+   height:100vh;
+   background-color: rgb(249, 98, 98);
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   }
+   
+
+   .header_nav_menu{
+   flex-direction:column;
+   }
+
+   .header_nav_menu {
+       flex-direction: column;
+       align-items:flex-start;
+   }
+
+   .header_nav_menu_link{
+       margin-right:0;
+       margin-bottom:20px;
+   }
+
+   .header_nav_menu_link a{
+       font-size:25px
+   }
+
+}
+
