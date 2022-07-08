@@ -1,0 +1,92 @@
+
+
+.points label {
+  height: 10px;
+  width: 10px;
+  border:solid 1px royalblue;
+  margin:5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.points{
+  display: flex;
+  justify-content: center;
+}
+
+#cbx_1:checked ~ .points label:nth-child(1),
+#cbx_2:checked ~ .points label:nth-child(2),
+#cbx_3:checked ~ .points label:nth-child(3),
+#cbx_4:checked ~ .points label:nth-child(4),
+#cbx_5:checked ~ .points label:nth-child(5){
+  background: royalblue;
+}
+
+
+.carousel {
+  height: 200px;
+  width:100%;
+  display: block;
+  overflow: hidden;
+}
+
+.content{
+    height: 200px;
+    width:100%;
+      display: flex;
+      transition: all 0.4s;
+}
+.carousel label{
+  height: 100%;
+  min-width:33%;
+}
+
+
+.carousel label{
+  height: 100%;
+  width:33%;
+}
+
+
+.carousel label:nth-child(1){
+background-image: url(https://picsum.photos/200/200?random=1);
+}
+
+.carousel label:nth-child(2){
+  background-image: url(https://picsum.photos/200/200?random=2);
+
+}
+.carousel label:nth-child(3){
+  background-image: url(https://picsum.photos/200/200?random=3);
+
+}
+.carousel label:nth-child(4){
+  background-image: url(https://picsum.photos/200/200?random=4);
+
+}
+
+.carousel label:nth-child(5){
+  background-image: url(https://picsum.photos/200/200?random=5);
+
+}
+
+#cbx_1:checked ~ .carousel .content {
+  transform: translatex(33%);
+}
+
+#cbx_3:checked ~ .carousel .content {
+  transform: translatex(-33%);
+}
+
+#cbx_4:checked ~ .carousel .content {
+  transform: translatex(-66%);
+}
+
+#cbx_5:checked ~ .carousel .content {
+  transform: translatex(-99%);
+}
+
+[name="carousel"] {
+  display: none;
+}

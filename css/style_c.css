@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Cormorant+Garamond&family=Montaga&display=swap');
 
 /* menu */
+/* menu */
 .header{
     background-color: #cca77c96;
     padding: 0px 20px;
     height:70px;
+    
     position:fixed;
     top:0;
     left:0;
@@ -111,4 +113,6 @@ transition:0.2s all ease-in-out
    }
 
 }
+
+
 

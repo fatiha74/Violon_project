@@ -1,0 +1,91 @@
+
+
+
+    header{
+
+        .menu_burger{
+            height: 50px;
+            width: 50px;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -ms-flex-pack: distribute;
+            justify-content: space-around;
+            cursor: pointer;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 4;
+
+            div{
+
+                height: 2px;
+                width: 90%;
+                -webkit-transition: all .4s;
+                transition: all .4s;
+                background-color: #9B7960;
+                &:nth-child(1) {
+                    -webkit-transform-origin: left;
+                            transform-origin: left;
+                  }
+                  
+                &:nth-child(3) {
+                    -webkit-transform-origin: left;
+                            transform-origin: left;
+                  }
+                  
+            }
+
+        }
+        nav {
+            position: fixed;
+            background-color: #9B7960;
+            right: 0;
+            top: 0;
+            padding: 60px 20px 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            width: calc(50% - 20px);
+            /* width: 200px; */
+            height: 100vh;
+            -webkit-transition: all .4s;
+            transition: all .4s;
+            -webkit-transform: translateX(90%);
+                    transform: translateX(90%);
+            opacity: 0;
+            z-index:3;
+            a {
+                color: black;
+                 padding-bottom: 20px;
+                text-decoration: none;
+                /* margin: 5px 0; */
+                font-size: 40px;
+                transition: all 0.4s;
+                font-family:'montaga';
+               
+                text-align:center;
+                &:hover {
+                    color: white;
+                    text-decoration: none;
+                   
+                    font-size: 40px;
+                     padding-bottom:20px;
+                  transition:all 0.4s;
+                  position:relative;
+                 
+                  }
+              }
+          }
+    }
+
+

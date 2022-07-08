@@ -1,102 +1,112 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <link rel="stylesheet" href="css/stylep.css" />
     <link rel="stylesheet" href="css/style_icon.css" />
     <!-- <link rel="stylesheet" href="css/style_p.css" /> -->
     <title>Présentation</title>
-</head>
-<body>
-    
-        <header class="header">
-            <div class="header_logo"><img src="/assets/logoblanc.svg" alt=""></div>
-            <nav class="header_nav">
-              <ul class="header_nav_menu">
-                <li class="header_nav_menu_link">
-                  <a href="index.html">Accueil</a>
-                  </li>
-                  <li class="header_nav_menu_link">
-                   <a href="presentation.html">Présentation</a>
-                   </li>
-                   <li class="header_nav_menu_link">
-                     <a href="contact.html">Contact</a>
-                     </li>
-                </li>
-              </ul>
-           </header>
-    
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" name="menu_open" id="menu_open" />
+      <label for="menu_open" class="menu_burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="presentation.html">À propos</a>
+        <a href="contact.html">Contact</a>
+        <img src="/assets/logoblanc.svg" alt="" />
+      </nav>
+    </header>
+
     <main>
-       
-    <section class="section1">
-      
-            <h1 class="main-title">Notre histoire</h1>
-    
-    </section>   
-    <section class="section2">
-   
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint beatae id inventore, dignissimos vel laboriosam veritatis quo est unde? Eos culpa quis consequatur perspiciatis maxime velit beatae magnam cupiditate porro?Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ea labore minima libero, magni et dolorem impedit voluptatem error quidem, soluta nam obcaecati rem fugit nisi cumque, tempora vel blanditiis.</p>
-   
-    
-    </section>
+      <section class="sectiontest">
+        <h1 class="anim" data-delay="0s">violon academy</h1>
+        <p class="anim yellow" data-delay="0.6s">
+          Il n'est jamais trop tard pour apprendre le violon ! Que vous
+          choisissiez un instrument pour la première fois ou que vous revisitiez
+          un ancien passe-temps, considérez ceci comme votre guide
+          incontournable pour apprendre le violon.
+        </p>
+        <p class="anim yellow" data-delay="0.9s">
+          Ajoutez cette page à vos favoris pour des didacticiels vidéo sur la
+          tenue et l'accordage de l'archet de violon, une liste de contrôle pour
+          créer votre espace de pratique parfait
+        </p>
+        <p class="anim" data-delay="1.2s">
+          des conseils pour trouver un bon professeur de violon partout dans le
+          monde, et plus encore.
+        </p>
+      </section>
 
-
-    <section class="section3">
-  <div class="content">
-            <div class="image_">
-                <img src="assets/Suzuki.webp">
-            </div>
-       
-         <div class="text-box text">
-            <p>
-                La Méthode Suzuki est basée sur l’apprentissage de la langue maternelle : lorsqu’un enfant apprend à parler, il apprend un mot à la fois sans oublier les mots déjà acquis. C’est la répétition du mot par les parents qui va faire que l’enfant va l’apprendre; puis à force de répétition, l’enfant va perfectionner sa prononciation. En musique, cela se traduit par la répétition d’un même rythme sur une même note jusqu’à ce que l’enfant arrive à le jouer, puis des nouvelles notes et des nouveaux rythmes sont ajoutés au fur et à mesure.
-                </p>
+      <section class="content">
+        <div class="left">
+          <img
+            src="/assets/violon2.jpg"
+            alt="yellow"
+            class="yellow anim"
+            data-delay="0s"
+          />
+          <!-- <p class="anim" data-delay=".5s">I have no clue what I'm doing here LOL!</p> -->
+          <!-- <img src="/assets/violon1.png" alt="squig" class="squig anim" data-delay=".7s"> -->
         </div>
-         <div class="droite"></div>
-    </section>
-    <section class="section4">
-        <div class="gauche text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius voluptates cupiditate qui, dolorum dolore magni. Nesciunt vitae minus eveniet autem nobis commodi unde fugit. Quos, illo. Aspernatur, quidem nisi?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, doloribus. Ducimus, sint labore consequuntur, illum nulla fugit quas eum veniam praesentium consectetur libero iure deleniti vero sed eligendi consequatur sit.</p>
-            </div>
-            <div class="droite">
-                <img class="image" src="/assets/gettyimages-108222243-612x612.jpg">
-            </div>
+        <div class="right">
+          <div class="anim" data-delay="1s">
+            <h2>Une equipe</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+              sanctus est Lorem ipsum dolor sit
+            </p>
+          </div>
+        </div>
+      </section>
 
+      <section class="container">
+        <div>
+          <img src="/assets/groupe.jpg" alt="" />
+        </div>
+      </section>
 
-
-    </section>
-
-
-    
- 
-     <!--  animation violon -->
-        <section class="sectionAnim">
-            <div class="content_violon">
-                <div class="rond_haut"></div>       
-                <div class="rond_bas"></div>
-                <div class="cordier"><img src="/assets/cordier.png" >
-                <div class="cordes">
-                    <div class="corde1"></div>
-                    <div class="corde2"></div>
-                    <div class="corde3"></div>
-                    <div class="corde4"></div>
-                </div>
-                </div>
-
-            </div>
-        </section>
-        
-
+      <!-- suzuki -->
+      <section class="content">
+        <div class="left">
+          <img
+            src="/assets/ph_violon2.jpg"
+            alt="yellow"
+            class="yellow anim"
+            data-delay="0s"
+          />
+          <!-- <p class="anim" data-delay=".5s">I have no clue what I'm doing here LOL!</p> -->
+          <!-- <img src="/assets/violon1.png" alt="squig" class="squig anim" data-delay=".7s"> -->
+        </div>
+        <div class="right">
+          <div class="anim" data-delay="1s">
+            <h2>La methode suzuki</h2>
+            <p>
+              La méthode Suzuki est une pédagogie d’apprentissage de la musique
+              mise au point après la seconde guerre mondiale, puis approfondie
+              pendant les décennies qui ont suivi, par un homme hors du commun,
+              le Docteur Shini’chi Suzuki.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <p>Copyright Violon Academy</p>  
-        <div class="reseau">
-          <i class="social_twitter"></i>
-          <i class="social_facebook"></i>
-          <i class="social_instagram"></i>
-        </div>
-        
+      <p>Copyright Violon Academy</p>
+      <div class="reseau">
+        <i class="social_twitter"></i>
+        <i class="social_facebook"></i>
+        <i class="social_instagram"></i>
+      </div>
     </footer>
-</body>
-<script src="scriptp.js"></script>
+  </body>
+  <script src="/script/scriptp.js"></script>
 </html>

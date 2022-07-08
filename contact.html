@@ -4,39 +4,46 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="css/stylec.css" />
     <link rel="stylesheet" href="css/style_icon.css" />
-    <link rel="stylesheet" href="css/all_awosame_pro.css" />
+    <link rel="stylesheet" href="assets/fontawesome/all_awosame_pro.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap"
+      rel="stylesheet"
+    />
+  
     <title>Contact</title>
   </head>
   <body>
-    <header>
-      <header class="header">
-        <div class="header_logo"><img src="/assets/logoblanc.svg" alt=""></div>
-        <nav class="header_nav">
-          <ul class="header_nav_menu">
-            <li class="header_nav_menu_link">
-              <a href="index.html">Accueil</a>
-              </li>
-              <li class="header_nav_menu_link">
-               <a href="presentation.html">Présentation</a>
-               </li>
-               <li class="header_nav_menu_link">
-                 <a href="contact.html">Contact</a>
-                 </li>
-            </li>
-          </ul>
-       </header>
-    </header>
-    <main>
-      <section>
-        <div class="titre">
-          <h1>Nous contacter</h1>
-        </div>
-      </section>
+    <header> 
+      <input type="checkbox" name="menu_open" id="menu_open">
+      <label for="menu_open" class="menu_burger">
+      <div>
+      </div>
+      <div>
+      </div>
+      <div>
+      </div>
+      </label>
+      <nav> 
+      <a href="index.html">Accueil</a>
+      <a href="presentation.html">À propos</a>
+      <a href="contact.html">Contact</a>    
+      <img src="/assets/logoblanc.svg" alt="">
+      </nav>
 
+     
+      </header>
+    <main>
+      
+      
+     
+      <div class="logov"><img src="/assets/logoblanc.svg" alt=""></div>
       <section class="formulaire">
         <div class="cadre_marron">
           <div class="adresse">
-            <p>Violon pour tous</p>
+            <p>Violon Academy</p>
             <p>69 et 71 Boulevard de Reuilly</p>
             <p>74100 ANNEMASSE</p>
           </div>
@@ -47,9 +54,25 @@
             <p>violonpourtous@gmail.com</p>
             <i class="fa-solid fa-violin"></i>
           </div>
+          <div class="reseau">
+            <div class="copy">  
+              <p>Copyright Violon Academy</p>
+            </div>
+            <div>
+            <i class="social_twitter"></i>
+            <i class="social_facebook"></i>
+            <i class="social_instagram"></i>
+          </div>
+          </div>
+          
         </div>
 
         <div class="cadre_blanc">
+          <div class="titre">
+            <h1>Nous contacter</h1>
+          </div>
+          <div>
+
           <form class="" action="" method="post">
             <input type="text" name="nomContact" placeholder="Name" />
             <input
@@ -69,17 +92,18 @@
               cols="80"
             ></textarea>
             <input type="submit" name="" value="Envoyer" />
+            <span class="btn_snicker_ctn">
+              <a class="btn_snicker" href="#"> ENVOYER<i class="fa-solid fa-arrow-right"></i> </a>
+        
+            </span>
           </form>
+          </div>
         </div>
       </section>
     </main>
     <footer>
-      <p>Copyright Violon Academy</p>
-      <div class="reseau">
-        <i class="social_twitter"></i>
-        <i class="social_facebook"></i>
-        <i class="social_instagram"></i>
-      </div>
+    
+     
     </footer>
   </body>
 </html>
